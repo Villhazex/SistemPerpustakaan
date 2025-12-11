@@ -1,0 +1,10 @@
+Alpha|111
+Beta|222
+Delta|333
+Gamma|444
+Epsilon|555
+Zeta|666
+Eta|777
+Iris|888
+Beatrice|999
+Mega|100
