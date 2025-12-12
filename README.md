@@ -93,12 +93,12 @@ Menampilkan:
 ---
 
 ## 📂 Struktur Folder
-    📦 SistemPerpustakaan
-    ├─ 📄 main.cpp
-    ├─ 📄 buku.txt
-    ├─ 📄 user.txt
-    ├─ 📄 pinjam.txt
-    └─ 📄 README.md
+📦 SistemPerpustakaan
+├─ 📄 main.cpp
+├─ 📄 buku.txt
+├─ 📄 user.txt
+├─ 📄 pinjam.txt
+└─ 📄 README.md
 
 
 ---
@@ -106,8 +106,23 @@ Menampilkan:
 ## 🛠️ Cara Menjalankan
 
 ### **1. Clone repository**
-```bash
+
+
+```md
 git clone https://github.com/somebodymeee/SistemPerpustakaan.git
+```
 
+### **2. Masuk ke Dalam File Folder**
+```md
+cd SistemPerpustakaan
+```
 
-g++ main.cpp -o perpustakaan
+### **3. Compile Program**
+```md
+cd SistemPerpustakaan -o namafilecustom
+```
+
+### **3. Jalankan Program**
+```md
+namafilecustom
+```
