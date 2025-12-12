@@ -1,13 +1,113 @@
-# Fitur-yang-ada
+<h1 align="center">📚 Villhaze Library System</h1>
 
-![image alt](https://github.com/somebodymeee/SistemPerpustakaan/blob/main/Screenshot%202025-12-11%20121506.png?raw=true)
-1. Login Admin username (Rosyid, password = 101)
-2. Login multiple akun User (Lihat di user.txt)
-3. register akun baru
-4. Menambah data buku, data disimpan di file, jadi tidak akan hilang jika aplikasi ditutup 
-5. Edit data buku
-6. Hapus data buku
-7. Menampilkan data buku
-8. Pinjam buku, informasi peminjam buku, tanggal dipinjam dan tanggal mengembalikan buku
-9. Kembalikan buku
-10. Statistik perpustakaan, melihat berapa banyak buku yg ada, dan beberapa lain
+<p align="center">
+  <i>Sistem Perpustakaan berbasis C++ dengan penyimpanan file — cepat, sederhana, dan powerful.</i>
+</p>
+
+<p align="center">
+  <!-- Badges -->
+  <img src="https://img.shields.io/badge/Language-C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Platform-Console-333?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Made%20By-Villhaze-blueviolet?style=for-the-badge"/>
+</p>
+
+---
+
+## 🖼️ Preview
+![Preview Screenshot](https://github.com/somebodymeee/SistemPerpustakaan/blob/main/Screenshot%202025-12-11%20121506.png?raw=true)
+
+---
+
+## 🧾 Deskripsi
+**Villhaze Library System** adalah aplikasi manajemen perpustakaan sederhana yang dibangun menggunakan **C++**.  
+Seluruh data disimpan dalam **file**, sehingga tetap aman walaupun aplikasi ditutup.  
+Cocok digunakan untuk belajar dasar-dasar C++, file handling, dan manajemen data.
+
+---
+
+## 🚀 Fitur Utama
+
+### 🔐 **1. Login Admin**
+- Username: **Rosyid**
+- Password: **101**
+- Akses penuh ke semua fitur.
+
+---
+
+### 👥 **2. Login Multi User**
+- Mendukung banyak akun user.
+- Data user tersimpan pada `user.txt`.
+
+---
+
+### 📝 **3. Register User Baru**
+- User dapat membuat akun sendiri.
+- Data tersimpan otomatis ke file.
+
+---
+
+### ➕ **4. Tambah Data Buku**
+- Tambah buku baru dengan informasi lengkap.
+- Data disimpan secara *persistent*.
+
+---
+
+### ✏️ **5. Edit Data Buku**
+- Ubah data seperti judul, penulis, tahun terbit, dan lainnya.
+
+---
+
+### 🗑️ **6. Hapus Buku**
+- Menghapus buku dari database secara permanen.
+
+---
+
+### 📖 **7. Tampilkan Semua Buku**
+- Menampilkan daftar buku dalam tabel yang rapi.
+
+---
+
+### 📚 **8. Pinjam Buku**
+- Mencatat:
+  - Nama peminjam
+  - Judul buku
+  - Tanggal pinjam
+  - Tanggal kembali
+
+---
+
+### 🔄 **9. Kembalikan Buku**
+- Memperbarui status buku menjadi tersedia kembali.
+
+---
+
+### 📊 **10. Statistik Perpustakaan**
+Menampilkan:
+- Total buku  
+- Buku dipinjam  
+- Buku tersedia  
+- Total user  
+- Dan statistik lainnya
+
+---
+
+## 📂 Struktur Folder
+    📦 SistemPerpustakaan
+    ├─ 📄 main.cpp
+    ├─ 📄 buku.txt
+    ├─ 📄 user.txt
+    ├─ 📄 pinjam.txt
+    └─ 📄 README.md
+
+
+---
+
+## 🛠️ Cara Menjalankan
+
+### **1. Clone repository**
+```bash
+git clone https://github.com/somebodymeee/SistemPerpustakaan.git
+
+
+g++ main.cpp -o perpustakaan
