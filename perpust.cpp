@@ -45,6 +45,15 @@ bool loginUser(string user, string pass) {
     return false;
 }
 
+void reg(string nama, string password){
+    ofstream file("user.txt", ios::app); // tambahkan ke file, bukan rewrite
+    file <<nama << "|" << password << "\n";
+    file.close();
+
+    cout << "Register berhasil! Akun telah ditambahkan.\n";
+}
+
+
 const int maxbuku = 100; //c++ mengharuskan nilai constan pada array, jika tidak maka akan terjadi error
 
 //alokasi dinamis
@@ -341,6 +350,7 @@ int main(){
     cout << "\n===== SIAPA ANDA? =====\n";
     cout << "1. Admin\n";
     cout << "2. User\n";
+    cout << "3. Register as User\n";    
     cout << "Pilih: ";
 
     int role;
@@ -382,6 +392,16 @@ int main(){
                 }
             }
             break;
+        case 3 :
+            // string user, pass;
+            cout << "\n===== REGISTER =====\n";
+            cout << "Username: ";
+            cin >> user;
+            cout << "Password: ";
+            cin >> pass;
+
+            reg(user, pass);
+            return 0;
 
         default:
             cout << "Pilihan tidak valid!\n";
