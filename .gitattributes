@@ -1,8 +1,0 @@
-# Abaikan C++
-*.cpp linguist-detectable=false
-*.hpp linguist-detectable=false
-*.h   linguist-detectable=false
-
-# Pastikan Dart & Python tetap dihitung
-*.dart linguist-detectable=true
-*.py   linguist-detectable=true
